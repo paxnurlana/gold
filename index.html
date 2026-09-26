@@ -2,156 +2,239 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#fbfbf8">
-  <meta name="description" content="Видео о пути трейдера, системе анализа золота и двух форматах обучения.">
-  <title>Как стать прибыльным трейдером</title>
-  <link rel="preconnect" href="https://i.ytimg.com">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#070808">
+  <meta name="description" content="Как стать прибыльным трейдером: видео о системе торговли золотом, результаты и два формата обучения — личная работа и базовый мини-курс.">
+  <title>Как стать прибыльным трейдером — Gold Trading Academy</title>
   <link rel="preconnect" href="https://www.youtube-nocookie.com">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23161616'/%3E%3Cpath d='M12 43L25 30l9 8 18-22' fill='none' stroke='%23238a57' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <style>
+    @font-face{font-family:"TT Firs Neue";src:url("assets/TTFirsNeue-Light.woff2") format("woff2");font-weight:300;font-display:swap}
+    @font-face{font-family:"TT Firs Neue";src:url("assets/TTFirsNeue-Regular.woff2") format("woff2");font-weight:400;font-display:swap}
+    @font-face{font-family:"TT Firs Neue";src:url("assets/TTFirsNeue-Medium.woff2") format("woff2");font-weight:500;font-display:swap}
+    @font-face{font-family:"TT Firs Neue";src:url("assets/TTFirsNeue-Bold.woff2") format("woff2");font-weight:700;font-display:swap}
+    :root{--bg:#070808;--ink:#f4f2ed;--muted:#aaa8a1;--gold:#d6b870;--gold2:#ead7a7;--line:rgba(255,255,255,.14);--max:1240px;--ease:cubic-bezier(.16,1,.3,1)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;background:var(--bg)}body{margin:0;background:var(--bg);color:var(--ink);font-family:"TT Firs Neue",Arial,sans-serif;line-height:1.48;overflow-x:hidden;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button,a{-webkit-tap-highlight-color:transparent}img{display:block;max-width:100%}svg{display:block}.grain{position:fixed;inset:-12%;width:124%;height:124%;z-index:30;pointer-events:none;opacity:.115;mix-blend-mode:overlay;image-rendering:pixelated}.lights{position:fixed;inset:-25%;z-index:0;pointer-events:none;overflow:hidden}.light{position:absolute;border-radius:50%;filter:blur(85px);opacity:.16}.light.one{width:55vw;height:55vw;background:#a67b30;top:0;right:-8%;animation:drift 19s ease-in-out infinite alternate}.light.two{width:45vw;height:45vw;background:#57472a;left:-12%;top:48%;animation:drift 24s ease-in-out infinite alternate-reverse}@keyframes drift{to{transform:translate(-11%,17%) scale(1.1)}}
+    .wrap{width:min(calc(100% - 44px),var(--max));margin-inline:auto}.site{position:relative;z-index:1}.section{padding:74px 0}.kicker{color:var(--gold);font-size:10px;font-weight:700;letter-spacing:.17em;text-transform:uppercase}.section-title{font-size:clamp(36px,10.2vw,52px);font-weight:700;line-height:.99;letter-spacing:-.052em;margin:14px 0 34px;max-width:1000px;text-wrap:balance}.section-title em{font-style:normal;color:var(--gold2)}.section-lead{color:#c6c2b8;font-size:15px;max-width:690px;margin:-16px 0 30px}.reveal{opacity:0;transform:translateY(22px);filter:blur(5px);transition:opacity .8s var(--ease),transform .8s var(--ease),filter .8s var(--ease)}.reveal.show{opacity:1;transform:none;filter:none}
+    .nav{padding:max(22px,env(safe-area-inset-top)) 0 0}.nav-in{display:flex;justify-content:space-between;align-items:center;gap:18px}.brand{font-size:14px;line-height:1.1;font-weight:700;letter-spacing:-.02em}.brand small{display:block;color:var(--muted);font-size:9px;font-weight:500;letter-spacing:.13em;text-transform:uppercase;margin-top:5px}.nav-tag{font-size:10px;color:#c6c2b8;display:flex;align-items:center;gap:8px;white-space:nowrap}.nav-tag:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 5px rgba(214,184,112,.1)}
+    .hero{position:relative;display:flex;align-items:center;min-height:670px;overflow:hidden;isolation:isolate}.hero:before{content:"";position:absolute;z-index:-1;right:-210px;top:4%;width:460px;height:460px;border:1px solid rgba(214,184,112,.16);border-radius:50%;box-shadow:0 0 85px rgba(214,184,112,.06),inset 0 0 75px rgba(214,184,112,.05);animation:orbit 13s ease-in-out infinite alternate}.hero:after{content:"";position:absolute;right:10%;bottom:6%;width:1px;height:155px;background:linear-gradient(transparent,rgba(214,184,112,.28),transparent);transform:rotate(35deg)}@keyframes orbit{to{transform:translate(-15px,20px) rotate(12deg)}}.hero-in{padding:80px 0 96px}.hero h1{font-size:clamp(52px,12.6vw,68px);font-weight:700;line-height:.93;letter-spacing:-.06em;margin:17px 0 24px;max-width:980px;text-wrap:balance}.hero-lead{color:#dedbd4;font-size:16px;line-height:1.55;max-width:680px;margin:0 0 18px}.hero-goal{color:var(--gold2);font-size:14px;font-weight:500;max-width:620px;margin:0 0 28px}.hero-bottom{display:flex;align-items:center;gap:18px}.hero-side{font-size:10px;color:var(--muted);max-width:120px;line-height:1.4}.button{display:flex;align-items:center;justify-content:space-between;gap:18px;width:100%;max-width:360px;min-height:64px;padding:10px 11px 10px 22px;border:1px solid rgba(255,255,255,.27);border-radius:999px;background:linear-gradient(180deg,#ead7a7,#d6b870);color:#17140e;font-size:14px;font-weight:700;box-shadow:0 18px 45px rgba(0,0,0,.36),inset 0 1px 1px rgba(255,255,255,.6),inset 0 -2px 7px rgba(94,68,18,.18);transition:.35s var(--ease)}.button:hover{transform:translateY(-3px);box-shadow:0 25px 55px rgba(0,0,0,.45),0 0 32px rgba(214,184,112,.16)}.button-icon{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:#17140e;color:var(--gold2);font-size:20px;flex:0 0 auto}.hero-rule{height:1px;background:linear-gradient(90deg,transparent,rgba(214,184,112,.5),rgba(255,255,255,.12),transparent)}
+    .glass{position:relative;overflow:hidden;background:linear-gradient(145deg,rgba(255,255,255,.105),rgba(255,255,255,.028) 52%,rgba(214,184,112,.035));border:1px solid rgba(255,255,255,.18);border-radius:26px;box-shadow:0 28px 80px rgba(0,0,0,.3),inset 0 1px rgba(255,255,255,.18),inset 0 -1px rgba(0,0,0,.55);backdrop-filter:blur(26px) saturate(145%);-webkit-backdrop-filter:blur(26px) saturate(145%)}.glass:before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:linear-gradient(115deg,rgba(255,255,255,.12),transparent 24%,transparent 72%,rgba(214,184,112,.055));mix-blend-mode:screen}.glass:after{content:"";position:absolute;width:65%;height:1px;top:0;left:8%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.7),transparent);opacity:.48}
+    .benefits{display:grid;grid-template-columns:1fr;gap:14px}.benefit{padding:25px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between}.benefit h3{position:relative;font-size:24px;line-height:1.08;letter-spacing:-.035em;margin:0 0 10px}.benefit p{position:relative;color:var(--muted);font-size:13px;margin:0}.icon-stage{height:105px;display:flex;align-items:center;justify-content:center;color:var(--gold2)}.icon-stage svg{width:88px;height:88px;overflow:visible;filter:drop-shadow(0 0 15px rgba(214,184,112,.14))}.icon-stage svg *{vector-effect:non-scaling-stroke}.icon-stroke{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.chart-line{stroke-dasharray:104;stroke-dashoffset:104;animation:draw 4.2s ease-in-out infinite}.icon-check{stroke-dasharray:30;stroke-dashoffset:30;animation:draw 3.6s ease-in-out infinite}.icon-dot{fill:var(--gold2);animation:glow 2.4s ease-in-out infinite}.icon-tick{transform-origin:50% 50%;animation:tick 3.4s ease-in-out infinite}@keyframes draw{18%,75%{stroke-dashoffset:0}0%,100%{stroke-dashoffset:104}}@keyframes glow{50%{opacity:.35;filter:drop-shadow(0 0 10px var(--gold2))}}@keyframes tick{50%{transform:rotate(22deg)}}
+    .roadmap{padding:7px 24px}.road-row{position:relative;display:grid;grid-template-columns:53px 1fr;gap:14px;padding:26px 0;border-top:1px solid rgba(255,255,255,.12)}.road-row:first-child{border:0}.road-number{color:var(--gold);font-size:13px;font-weight:700;letter-spacing:.06em;padding-top:4px}.road-row h3{font-size:21px;line-height:1.1;letter-spacing:-.03em;margin:0 0 10px}.road-row p{font-size:13px;color:var(--muted);margin:0;max-width:740px}.road-row:hover .road-number{color:var(--gold2)}
+    .personal-intro{max-width:760px}.personal-intro .section-title{margin-bottom:30px}.support-grid{display:grid;gap:14px}.support-card{min-height:235px;padding:24px;display:flex;flex-direction:column;justify-content:space-between}.support-card h3{font-size:21px;line-height:1.1;letter-spacing:-.03em;margin:0 0 9px}.support-card p{font-size:13px;color:var(--muted);margin:0}.support-mark{height:74px;color:var(--gold2);display:flex;align-items:flex-start}.support-mark svg{width:53px;height:53px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 15px rgba(214,184,112,.18))}.support-card:nth-child(1) .support-mark svg{animation:signal-breathe 3s ease-in-out infinite}.support-card:nth-child(2) .support-mark svg{animation:signal-breathe 3.4s ease-in-out infinite 1s}.support-card:nth-child(3) .support-mark svg{animation:signal-breathe 3.2s ease-in-out infinite .5s}@keyframes signal-breathe{50%{transform:scale(1.07);filter:drop-shadow(0 0 24px rgba(214,184,112,.32))}}
+    .payouts{display:grid;grid-template-columns:1fr;gap:14px}.payout{padding:10px;display:grid;place-items:center;min-width:0}.payout img{width:100%;height:auto;border-radius:17px;background:#fff}.proof .section-title{max-width:1050px}
+    .price-intro{max-width:740px}.offer-shell{padding:7px;background:linear-gradient(145deg,rgba(255,255,255,.15),rgba(214,184,112,.07),rgba(255,255,255,.025));border:1px solid rgba(255,255,255,.2);border-radius:32px;box-shadow:0 45px 120px rgba(0,0,0,.42),inset 0 1px rgba(255,255,255,.22);backdrop-filter:blur(28px);-webkit-backdrop-filter:blur(28px)}.offer{padding:27px 20px 21px;border-radius:26px;background:rgba(6,7,7,.69);border:1px solid rgba(255,255,255,.09);overflow:hidden;position:relative}.offer:before{content:"";position:absolute;width:300px;height:300px;border-radius:50%;background:rgba(214,184,112,.13);filter:blur(60px);right:-130px;top:-125px}.offer-head,.offer-grid{position:relative}.offer-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:27px}.offer-head h3{font-size:clamp(27px,7.4vw,43px);line-height:1.03;letter-spacing:-.05em;margin:0}.offer-head h3 em{font-style:normal;color:var(--gold2)}.offer-stamp{flex:0 0 auto;width:54px;height:54px;border:1px solid rgba(214,184,112,.32);border-radius:50%;display:grid;place-items:center;color:var(--gold2);font-size:22px;box-shadow:0 0 0 10px rgba(214,184,112,.035)}.offer-grid{display:grid;gap:26px}.includes{list-style:none;padding:0;margin:0}.includes li{padding:11px 0;border-top:1px solid rgba(255,255,255,.11);font-size:13px;display:flex;gap:10px}.includes li:before{content:"✓";color:var(--gold);font-weight:700}.price-area{border-top:1px solid rgba(214,184,112,.25);padding-top:23px}.price-label{display:block;color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.14em}.current-price{display:block;font-size:clamp(49px,12vw,80px);line-height:.95;letter-spacing:-.07em;color:var(--gold2);margin:9px 0 13px;white-space:nowrap}.international-price{font-size:12px;color:#c3bfb5;margin:0 0 22px}.installment{display:flex;align-items:center;gap:13px;padding:14px;border:1px solid rgba(255,255,255,.16);border-radius:18px;background:rgba(255,255,255,.055);margin-bottom:22px}.kaspi-mark{position:relative;width:43px;height:43px;flex:0 0 auto;overflow:hidden;border-radius:50%;background:#f54135}.kaspi-mark img{position:absolute;max-width:none;width:133.4%;height:133.4%;object-fit:cover;left:50%;top:50%;transform:translate(-50%,-50%)}.installment-copy{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%}.installment-copy span{font-size:11px;color:#c9c5bb;line-height:1.2}.installment-copy strong{font-size:21px;line-height:1;letter-spacing:-.04em;white-space:nowrap;text-align:right}.installment-copy small{display:block;font-size:10px;font-weight:400;color:var(--muted);letter-spacing:0;margin-top:5px}.price-note{font-size:10px;color:var(--muted);text-align:center;margin:11px 0 0}
+    .closing{padding:62px 0 2px;max-width:700px}.closing h3{font-size:clamp(34px,9vw,56px);line-height:.98;letter-spacing:-.05em;margin:0 0 20px}.closing p{font-size:15px;color:#c6c2b8;margin:0 0 13px}.closing strong{color:var(--gold2)}.footer{border-top:1px solid var(--line);padding:28px 0 calc(28px + env(safe-area-inset-bottom));color:var(--muted);font-size:10px}.footer-in{display:flex;justify-content:space-between;gap:16px}.footer a{color:var(--gold2)}
+    @media(min-width:700px){.wrap{width:min(calc(100% - 56px),var(--max))}.section{padding:108px 0}.section-title{font-size:clamp(54px,7vw,82px);margin-bottom:54px}.section-lead{font-size:17px;margin-top:-30px;margin-bottom:43px}.nav{padding-top:29px}.brand{font-size:16px}.nav-tag{font-size:12px}.hero{min-height:720px}.hero:before{width:680px;height:680px;right:-265px;top:-12%}.hero-in{padding:130px 0 130px}.hero h1{font-size:clamp(82px,8.4vw,126px);max-width:1100px}.hero-lead{font-size:19px}.hero-goal{font-size:16px}.benefits{grid-template-columns:repeat(2,1fr)}.benefit{min-height:300px;padding:30px}.icon-stage{height:130px}.icon-stage svg{width:100px;height:100px}.roadmap{padding:15px 36px;max-width:1050px;margin-left:auto}.road-row{grid-template-columns:104px 1fr;gap:25px;padding:35px 0}.road-number{font-size:16px}.road-row h3{font-size:28px}.road-row p{font-size:15px}.support-grid{grid-template-columns:repeat(3,1fr)}.support-card{min-height:290px;padding:29px}.payouts{grid-template-columns:repeat(2,1fr);gap:18px}.payout{padding:14px}.offer{padding:48px}.offer-head{margin-bottom:42px}.offer-stamp{width:68px;height:68px}.offer-grid{grid-template-columns:1fr .9fr;gap:62px;align-items:start}.includes li{font-size:15px;padding:14px 0}.price-area{padding-top:0;border:0}.installment{padding:16px}.installment-copy span{font-size:13px}.installment-copy strong{font-size:25px}.closing{padding-top:82px}.closing p{font-size:17px}}
+    @media(min-width:1060px){.benefits{grid-template-columns:repeat(4,1fr)}.benefit{min-height:345px;padding:26px}.benefit h3{font-size:22px}.benefit p{font-size:13px}}
+    @media(max-width:380px){.wrap{width:min(calc(100% - 34px),var(--max))}.hero h1{font-size:46px}.current-price{font-size:44px}.installment-copy strong{font-size:18px}.installment-copy span{font-size:10px}.offer{padding:23px 16px 18px}.offer-stamp{width:43px;height:43px;font-size:17px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.light,.hero:before,.chart-line,.icon-check,.icon-dot,.icon-tick,.support-mark svg{animation:none!important}.chart-line,.icon-check{stroke-dashoffset:0}.reveal{opacity:1;transform:none;filter:none;transition:none}}
+    /* Правки структуры: ровная шапка, открытая программа, карточка наставника. */
+    .nav .brand{font-size:12px;font-weight:500;letter-spacing:0;text-transform:lowercase;color:#d0cdc5}
+    .nav .nav-tag{font-size:12px;font-weight:700;letter-spacing:-.025em;color:var(--ink)}
+    .nav .nav-tag:before{width:7px;height:7px;box-shadow:0 0 0 5px rgba(214,184,112,.1),0 0 16px rgba(214,184,112,.35)}
+    .roadmap{padding:0;max-width:100%;margin:0;background:none;border:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
+    .road-row{display:block;padding:29px 0 31px;border-top:1px solid rgba(214,184,112,.25)}
+    .road-row:first-child{border-top:1px solid rgba(214,184,112,.25)}
+    .road-month{display:block;color:var(--gold2);font-size:clamp(38px,9vw,62px);font-weight:700;line-height:1;letter-spacing:-.055em;margin-bottom:14px}
+    .road-row h3{font-size:clamp(21px,5.5vw,30px);margin:0 0 9px}
+    .road-row p{font-size:14px;line-height:1.55;max-width:790px}
+    .coach-card{position:relative;overflow:hidden;margin-top:14px;padding:30px 26px;border:1px solid rgba(255,255,255,.42);border-radius:27px;background:linear-gradient(135deg,#ead9ae 0%,#d4b872 58%,#ad8c49 100%);color:#1c1a14;box-shadow:0 28px 70px rgba(0,0,0,.28),inset 0 1px rgba(255,255,255,.68)}
+    .coach-card:after{content:"";position:absolute;width:270px;height:270px;right:-105px;top:-135px;border:1px solid rgba(38,31,15,.17);border-radius:50%;box-shadow:0 0 0 35px rgba(255,255,255,.045),0 0 0 75px rgba(255,255,255,.035)}
+    .coach-card p{position:relative;z-index:1;max-width:870px;margin:12px 0 0;font-size:clamp(23px,6vw,38px);font-weight:700;line-height:1.13;letter-spacing:-.04em}
+    .coach-symbol{position:relative;z-index:1;font-size:26px;line-height:1}
+    .offer-head{justify-content:flex-start}
+    .includes li{padding:7px 0;border:0;line-height:1.4}
+    .price-area{border:0;padding-top:0}
+    @media(min-width:700px){.nav .brand{font-size:14px}.nav .nav-tag{font-size:15px}.road-row{padding:39px 0 42px}.road-row p{font-size:16px}.coach-card{margin-top:18px;padding:44px 46px}.offer-grid{gap:62px}.includes li{padding:9px 0}}
+    .hero-goal{max-width:680px;padding:14px 17px;margin-bottom:25px;border:1px solid rgba(214,184,112,.42);border-radius:17px;background:linear-gradient(135deg,rgba(214,184,112,.13),rgba(255,255,255,.035));box-shadow:inset 0 1px rgba(255,255,255,.12),0 14px 32px rgba(0,0,0,.16)}
+    .road-year{margin-top:27px;padding:28px 25px 30px}
+    .road-year .road-month{margin-bottom:14px}
+    .road-year h3{position:relative;font-size:clamp(21px,5.5vw,30px);line-height:1.12;letter-spacing:-.035em;margin:0 0 10px}
+    .road-year p{position:relative;max-width:790px;font-size:14px;line-height:1.55;color:var(--muted);margin:0}
+    .coach-mark{position:relative;z-index:1;height:74px;display:flex;align-items:flex-start}
+    .coach-mark svg{width:53px;height:53px;fill:none;stroke:#292316;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 12px rgba(255,255,255,.3));animation:signal-breathe 3.4s ease-in-out infinite}
+    .coach-card p{margin:0;font-size:clamp(20px,4.8vw,30px);line-height:1.2}
+    @media(min-width:700px){.road-year{margin-top:35px;padding:38px 39px 42px}.road-year p{font-size:16px}.coach-card p{max-width:820px}}
+    @media(prefers-reduced-motion:reduce){.coach-mark svg{animation:none}}
+    .hero-goal{padding:0;border:0;border-radius:0;background:none;box-shadow:none;color:var(--gold2)}
+    .benefit{display:grid;grid-template-rows:132px 1fr;gap:13px;min-height:285px}
+    .benefit > div:last-child{align-self:end}
+    .benefit .icon-stage{height:132px;justify-content:center;align-items:center;margin:0;position:relative;isolation:isolate}
+    .benefit .icon-stage:before{display:none}
+    .benefit .icon-stage svg{width:172px;height:122px;overflow:visible;filter:none}
+    .benefit .icon-stage svg *{vector-effect:non-scaling-stroke}
+    .road-row{padding-left:25px;padding-right:25px}
+    @media(max-width:699px){.hero{min-height:580px}.hero-in{padding-top:85px;padding-bottom:95px}}
+    @media(min-width:700px){.benefit{min-height:315px}.road-row{padding-left:39px;padding-right:39px}}
+    @media(min-width:1060px){.benefit{min-height:345px}}
+    .scene-line{fill:none;stroke:#ead7a7;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+    .scene-muted{fill:none;stroke:rgba(234,215,167,.38);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+    .scene-fill{fill:rgba(214,184,112,.2);stroke:#ead7a7;stroke-width:2.2;stroke-linejoin:round}
+    .scene-market .candle{animation:candle-rise 5s ease-in-out infinite;animation-delay:calc(var(--i) * .06s)}
+    .scene-market .candle-wick{fill:none;stroke:#d6b870;stroke-width:1.15;stroke-linecap:round}
+    .scene-market .candle-body{stroke-width:1.2;stroke-linejoin:round}
+    .scene-market .bull .candle-body{fill:#d6b870;stroke:#f2dfa9}
+    .scene-market .bear .candle-body{fill:none;stroke:#ead7a7}
+    .scene-stats .stat-trend{stroke-dasharray:200;animation:line-draw 4.2s ease-in-out infinite}
+    .scene-stats .stat-area{fill:url(#stats-gold-area);animation:stat-area-in 4.2s ease-in-out infinite}
+    .scene-stats .stat-axis-label{fill:rgba(234,215,167,.58);font:500 8px "TT Firs Neue",sans-serif}
+    .scene-risk .shield-wave{fill:none;stroke:#ead7a7;stroke-width:2.2;opacity:0;transform-box:fill-box;transform-origin:center;animation:shield-pulse 3.6s ease-out infinite}.scene-risk .wave-two{animation-delay:1.8s}
+    .scene-risk .shield-core{fill:none;stroke:#ead7a7;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.scene-risk .shield-dollar{fill:#ead7a7;font:300 44px "TT Firs Neue",sans-serif}
+    .coin-rain{height:132px;width:100%;margin:0;position:relative;overflow:hidden}.falling-coin{position:absolute;top:-25px;width:25px;height:25px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(145deg,#f2daa0,#b78c38);color:#17130c;font-size:11px;font-weight:700;border:1px solid rgba(255,244,200,.72);box-shadow:0 4px 12px rgba(214,184,112,.2),inset 0 1px rgba(255,255,255,.65);opacity:0;z-index:2;animation:coinFall 3.8s cubic-bezier(.3,.05,.55,1) infinite}.falling-coin:after{content:"";position:absolute;inset:4px;border:1px solid rgba(91,61,12,.28);border-radius:50%}.falling-coin.c1{left:22%;animation-delay:0s}.falling-coin.c2{left:38%;animation-delay:.65s}.falling-coin.c3{left:55%;animation-delay:1.3s}.falling-coin.c4{left:69%;animation-delay:1.95s}.falling-coin.c5{left:47%;animation-delay:2.6s}
+    @keyframes candle-rise{0%,10%,100%{transform:translateY(20px);opacity:0}30%,78%{transform:translateY(0);opacity:1}}
+    @keyframes stat-rise{0%,12%,100%{transform:scaleY(.18);opacity:.25}38%,80%{transform:scaleY(1);opacity:1}}
+    @keyframes line-draw{0%,18%{stroke-dashoffset:200;opacity:.2}50%,82%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:-200;opacity:.2}}
+    @keyframes stat-area-in{0%,28%,100%{opacity:0}55%,82%{opacity:1}}
+    @keyframes shield-pulse{0%{transform:scale(1);opacity:.48}70%,100%{transform:scale(1.24);opacity:0}}
+    @keyframes coinFall{0%{opacity:0;transform:translateY(-8px) rotateY(0) scale(.72)}12%{opacity:1}68%{opacity:1;transform:translateY(77px) rotateY(540deg) scale(1)}82%,100%{opacity:0;transform:translateY(91px) rotateY(720deg) scale(.55)}}
+    @media(prefers-reduced-motion:reduce){.icon-stage svg *,.falling-coin{animation:none!important}.scene-stats .stat-trend{stroke-dashoffset:0!important}.scene-risk .shield-wave{display:none}.falling-coin{opacity:1;top:20px}}
+    .liquid-cta{position:relative;isolation:isolate;width:100%;max-width:360px;padding:2px;border-radius:999px;background:conic-gradient(from var(--angle),#6f5421,#f4e2b3,#98732e,#fff3ce,#6f5421);box-shadow:0 0 25px rgba(214,184,112,.22),0 22px 45px rgba(0,0,0,.45);animation:metalSpin 4.8s linear infinite}
+    .liquid-cta:before{content:"";position:absolute;inset:-7px;border-radius:inherit;background:inherit;filter:blur(14px);opacity:.24;z-index:-1}
+    .liquid-cta .button{position:relative;overflow:hidden;width:100%;max-width:none;min-height:68px;padding:9px 10px 9px 21px;gap:10px;border:1px solid rgba(255,255,255,.28);border-radius:inherit;background:linear-gradient(135deg,rgba(255,255,255,.22),rgba(255,255,255,.075) 42%,rgba(214,184,112,.14));color:#fff;white-space:nowrap;backdrop-filter:blur(25px) saturate(170%);-webkit-backdrop-filter:blur(25px) saturate(170%);box-shadow:inset 0 1px rgba(255,255,255,.4),inset 0 -2px 8px rgba(0,0,0,.45)}
+    .liquid-cta .button:before{content:"";position:absolute;top:-40%;bottom:-40%;left:-45%;width:32%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.7),transparent);transform:skewX(-18deg);pointer-events:none;animation:shine 3.3s ease-in-out infinite}
+    .liquid-cta .button-icon{background:rgba(7,8,8,.82);box-shadow:inset 0 1px rgba(255,255,255,.18)}
+    .liquid-cta:hover{filter:brightness(1.12);transform:translateY(-3px)}
+    .liquid-cta .button:hover{transform:none;box-shadow:inset 0 1px rgba(255,255,255,.4),inset 0 -2px 8px rgba(0,0,0,.45)}
+    @property --angle{syntax:"<angle>";initial-value:0deg;inherits:false}
+    @keyframes metalSpin{to{--angle:360deg}}
+    @keyframes shine{0%,38%{left:-45%}70%,100%{left:125%}}
+    @media(max-width:380px){.liquid-cta .button{padding-left:16px;font-size:13px;gap:8px}.liquid-cta .button-icon{width:40px;height:40px}}
+    @media(prefers-reduced-motion:reduce){.liquid-cta,.liquid-cta .button:before{animation:none}}
+    /* XAUUSD landing: same visual language as the approved mentorship page. */
+    .funnel-hero{display:block;min-height:0}.funnel-hero .hero-in{padding:74px 0 88px}.funnel-hero h1{max-width:1000px;font-size:clamp(42px,9.6vw,92px);line-height:.99;margin:12px 0 22px}.funnel-hero h1 span{color:var(--gold2)}.funnel-hero .hero-lead{font-size:clamp(15px,4vw,19px);max-width:790px;margin-bottom:32px}
+    .video-shell{position:relative;width:min(100%,900px);aspect-ratio:16/9;overflow:hidden;border:1px solid rgba(234,215,167,.32);border-radius:24px;background:#111;box-shadow:0 30px 90px rgba(0,0,0,.52),0 0 38px rgba(214,184,112,.08),inset 0 1px rgba(255,255,255,.17)}.video-shell iframe{display:block;width:100%;height:100%;border:0}
+    .funnel-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:26px}.funnel-actions .liquid-cta,.funnel-actions .quiet-button{max-width:345px}.quiet-button{background:linear-gradient(135deg,rgba(255,255,255,.08),rgba(255,255,255,.025));border-color:rgba(234,215,167,.34);color:var(--gold2);box-shadow:inset 0 1px rgba(255,255,255,.12),0 15px 35px rgba(0,0,0,.19);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}.quiet-button .button-icon{border:1px solid rgba(234,215,167,.3);background:rgba(214,184,112,.08);color:var(--gold2)}.quiet-button:hover{border-color:var(--gold2);box-shadow:0 18px 45px rgba(0,0,0,.28),0 0 20px rgba(214,184,112,.08)}
+    .proof-original{position:relative}.proof-original .wrap{max-width:760px}.proof-original .section-title{font-size:clamp(35px,8.6vw,61px);line-height:1.02}.proof-original .reveal{filter:none}
+    .certificates{display:grid;gap:18px;margin:34px 0 44px}.certificate{position:relative;margin:0;overflow:hidden;border-radius:15px 12px 19px 13px;background:#111;box-shadow:0 14px 32px rgba(22,22,22,.14)}.certificate img{width:100%;height:auto}.certificate-portrait{width:min(84%,420px);margin-inline:auto}.certificate-fundednext::after{position:absolute;z-index:2;content:"";pointer-events:none;background:linear-gradient(#fff,#fff) 7% 7% / 27% 27% no-repeat,linear-gradient(#fff,#fff) 93% 7% / 27% 27% no-repeat,linear-gradient(#fff,#fff) 7% 93% / 27% 27% no-repeat;mix-blend-mode:difference;left:7.2%;top:75.7%;width:7.8%;height:11.2%;opacity:0;transition:opacity 140ms ease}.certificate-fundednext:hover::after,.certificate-fundednext:focus-within::after{opacity:.96}
+    .results-copy{max-width:38rem;color:var(--ink)}.results-copy .results-lead{margin-bottom:24px;font-size:clamp(1.45rem,6.1vw,2rem);font-weight:600;line-height:1.13;letter-spacing:-.036em}.results-copy p:last-child{max-width:32rem;color:var(--muted);font-size:1.08rem;line-height:1.55}.gold-underline{text-decoration:underline;text-decoration-color:#b08c43;text-decoration-thickness:2px;text-underline-offset:4px}
+    .components{padding-top:92px}.components .section-title{max-width:960px}.components-list{list-style:none;display:grid;grid-template-columns:1fr;margin:0;padding:0;border-top:1px solid rgba(214,184,112,.25)}.components-list li{position:relative;display:flex;align-items:center;gap:18px;min-height:74px;padding:20px 8px 20px 34px;border-bottom:1px solid rgba(214,184,112,.25)}.components-list li:before{content:"✦";position:absolute;left:0;top:50%;transform:translateY(-50%);color:var(--gold);font-size:15px;line-height:1}.components-list li strong{font-size:clamp(19px,5.2vw,27px);line-height:1.15;letter-spacing:-.032em;font-weight:500}.components-list .components-result{color:var(--gold2)}.components-list .components-result:before{color:var(--gold2)}
+    .bridge{position:relative;padding:95px 0;background:radial-gradient(ellipse at 75% 40%,rgba(214,184,112,.08),transparent 48%)}.bridge-layout{display:grid;gap:20px}.bridge .section-title{margin-bottom:0}.bridge-copy{padding:26px 0 0;border-top:1px solid rgba(214,184,112,.35)}.bridge-copy p{max-width:670px;color:#c6c2b8;font-size:clamp(15px,3.8vw,18px);line-height:1.55;margin:0 0 18px}.bridge-copy strong{color:var(--gold2)}
+    .formats{padding-top:40px}.format-grid{display:grid;gap:20px}.format-grid article{scroll-margin-top:25px}.format-personal,.format-course{position:relative;min-width:0;padding:27px 23px;border-radius:28px}.format-personal{overflow:hidden;border:1px solid rgba(234,215,167,.47);background:linear-gradient(145deg,rgba(255,255,255,.11),rgba(214,184,112,.075) 48%,rgba(255,255,255,.025));box-shadow:0 35px 95px rgba(0,0,0,.38),inset 0 1px rgba(255,255,255,.22),0 0 40px rgba(214,184,112,.08);backdrop-filter:blur(26px);-webkit-backdrop-filter:blur(26px)}.format-personal:before{content:"";position:absolute;width:260px;height:260px;right:-150px;top:-140px;border-radius:50%;background:rgba(214,184,112,.19);filter:blur(56px);pointer-events:none}.format-eyebrow{position:relative;color:var(--gold2);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.13em;margin-bottom:20px}.format-grid h2{position:relative;font-size:clamp(31px,7.8vw,45px);line-height:1.03;letter-spacing:-.045em;margin:0 0 23px}.format-grid p{position:relative;color:#c9c5bb;font-size:14px;line-height:1.55;margin:0 0 15px}.format-personal .format-price{position:relative;margin:27px 0 20px;padding-top:23px;border-top:1px solid rgba(214,184,112,.31)}.format-price small{display:block;color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.14em}.format-price strong{display:block;color:var(--gold2);font-size:clamp(39px,9.3vw,68px);line-height:1;letter-spacing:-.065em;white-space:nowrap;margin:8px 0 10px}.format-price span{display:block;color:#c9c5bb;font-size:13px}.format-personal .installment{position:relative;margin-bottom:10px}.format-grid .selection-note{color:var(--muted);font-size:11px;text-align:center;margin:0 0 21px}.format-personal .liquid-cta{max-width:none}.format-course{padding:27px 23px;display:flex;flex-direction:column;align-items:stretch}.format-course .format-eyebrow{color:var(--muted)}.format-course .format-price{margin-top:auto;padding-top:25px}.format-course .format-price strong{font-size:clamp(32px,7vw,48px);color:var(--ink)}.format-course .quiet-button{margin-top:25px;max-width:none}
+    .final{padding-top:56px;padding-bottom:105px}.final .section-title{max-width:900px}.final-copy{max-width:760px}.final-copy p{font-size:clamp(15px,3.8vw,18px);color:#c6c2b8;line-height:1.55;margin:0 0 15px}.final .funnel-actions{margin-top:30px}.disclaimer{max-width:790px;margin-top:45px;padding-top:21px;border-top:1px solid var(--line);color:#929088;font-size:11px;line-height:1.5}
+    .final .quiet-button small{display:block;color:var(--muted);font-size:10px;font-weight:400;line-height:1.1;margin-top:3px}
+    @media(min-width:700px){.funnel-hero .hero-in{padding:112px 0 118px}.funnel-hero h1{font-size:clamp(64px,6.6vw,92px)}.video-shell{border-radius:30px}.components-list{grid-template-columns:repeat(2,1fr)}.components-list li:nth-child(odd){padding-right:30px}.components-list li:nth-child(even){padding-left:44px;border-left:1px solid rgba(214,184,112,.25)}.components-list li:nth-child(even):before{left:22px}.bridge-layout{grid-template-columns:1.1fr .9fr;gap:65px}.bridge-copy{padding-top:21px}.format-grid{grid-template-columns:1.12fr .88fr;align-items:stretch}.format-personal,.format-course{padding:40px 37px}.format-grid p{font-size:16px}.final{padding-bottom:125px}}
+    @media(max-width:699px){.funnel-hero .hero-in{padding:65px 0 76px}.funnel-hero h1{font-size:clamp(39px,10.1vw,62px)}.video-shell{border-radius:18px}.funnel-actions{display:grid;gap:12px}.funnel-actions .liquid-cta,.funnel-actions .quiet-button{max-width:none}.funnel-actions .button{min-height:62px;font-size:13px}.funnel-actions .button-icon{width:39px;height:39px}.proof-original .section-title{font-size:clamp(34px,8.6vw,48px)}.components{padding-top:75px}.format-grid{gap:16px}.format-personal,.format-course{padding:28px 23px}.format-personal .installment-copy strong{font-size:20px}.final{padding-bottom:86px}}
+    @media(max-width:380px){.funnel-hero h1{font-size:38px}.format-personal,.format-course{padding:24px 18px}.format-price strong{font-size:36px}.funnel-actions .button{font-size:12px;padding-left:15px}.funnel-actions .button-icon{width:37px;height:37px}.format-personal .installment-copy strong{font-size:17px}}
+  </style>
 </head>
 <body>
-  <main>
-    <section class="hero section" aria-labelledby="hero-title">
-      <div class="hero-market" aria-hidden="true">
-        <svg viewBox="0 0 430 430" preserveAspectRatio="none">
-          <g class="hero-candles">
-            <path d="M174 326v66M165 346h18v24h-18z" />
-            <path d="M207 292v68M198 307h18v31h-18z" />
-            <path d="M240 315v72M231 329h18v38h-18z" />
-            <path d="M273 242v91M264 263h18v44h-18z" />
-            <path d="M306 198v83M297 216h18v40h-18z" />
-            <path d="M339 143v92M330 165h18v45h-18z" />
-            <path d="M372 99v79M363 119h18v38h-18z" />
-            <path d="M405 45v91M396 68h18v45h-18z" />
-          </g>
-        </svg>
-      </div>
-
-      <div class="shell hero-content">
-        <h1 id="hero-title">
-          Как стать <span class="gold-text">прибыльным</span> трейдером и начать зарабатывать <span class="green-text">$5–10k в месяц?</span>
-        </h1>
-
-        <div class="gold-swoop" aria-hidden="true"></div>
-
-        <p class="hero-copy">В этом видео я рассказал о своём пути, показал свои результаты и объяснил, как я анализирую золото и из чего состоит мой подход к трейдингу.</p>
-
-        <div class="video-shell reveal">
-          <iframe src="https://www.youtube-nocookie.com/embed/_iS8keAhNi8?rel=0" title="Видео о пути трейдера и системе анализа золота" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <img class="grain" src="assets/noise.gif" alt="" aria-hidden="true">
+  <div class="lights" aria-hidden="true"><i class="light one"></i><i class="light two"></i></div>
+  <div class="site">
+    <header class="nav"><div class="wrap nav-in"><a class="brand" href="#top">@paxnurlana</a><span class="nav-tag">Gold Trading Academy</span></div></header>
+    <main>
+      <section class="hero funnel-hero" id="top" aria-labelledby="hero-title">
+        <div class="wrap hero-in">
+          <h1 id="hero-title">Как стать <span>прибыльным</span> трейдером и начать зарабатывать <span>$5–10k в месяц?</span></h1>
+          <p class="hero-lead">В этом видео я рассказал о своём пути, показал свои результаты и объяснил, как я анализирую золото и из чего состоит мой подход к трейдингу.</p>
+          <div class="video-shell reveal">
+            <iframe src="https://www.youtube-nocookie.com/embed/_iS8keAhNi8?rel=0" title="Видео о пути трейдера и системе анализа золота" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="funnel-actions reveal">
+            <a class="button quiet-button" href="#base-course">Узнать о базовом мини-курсе <span class="button-icon" aria-hidden="true">↓</span></a>
+            <div class="liquid-cta"><a class="button" href="#personal-work">Узнать о личном обучении <span class="button-icon" aria-hidden="true">↓</span></a></div>
+          </div>
         </div>
+      </section>
+      <div class="hero-rule" aria-hidden="true"></div>
 
-        <div class="hero-actions reveal">
-          <a class="button button-primary" href="#base-course"><span>Узнать о базовом мини-курсе</span><i aria-hidden="true">↓</i></a>
-          <a class="button button-secondary" href="#personal-work"><span>Узнать о личном обучении</span><i aria-hidden="true">↓</i></a>
+      <section class="section proof-original" id="results" aria-labelledby="results-title">
+        <div class="wrap">
+          <h2 class="section-title reveal" id="results-title">Что нужно сделать, чтобы стать прибыльным трейдером и прийти к таким результатам?</h2>
+          <div class="certificates" aria-label="Галерея выплат и сертификатов">
+            <figure class="certificate reveal"><img src="assets/images/payout-alpha.webp" alt="Сертификат выплаты Alpha Capital на 5 180,15 долларов" width="1445" height="1089" loading="lazy" decoding="async"></figure>
+            <figure class="certificate certificate-fundednext reveal"><img src="assets/images/payout-fundednext.webp" alt="Сертификат выплаты FundedNext на 5 300 долларов" width="1513" height="1040" loading="lazy" decoding="async"></figure>
+            <figure class="certificate reveal"><img src="assets/images/payout-mff.webp" alt="Сертификат выплаты My Funded Futures на 6 500 долларов" width="1464" height="1075" loading="lazy" decoding="async"></figure>
+          </div>
+          <div class="results-copy reveal">
+            <p class="results-lead">Эти результаты — не один удачный трейд и не одна случайная выплата.</p>
+            <p>За ними стоит <strong class="gold-underline">система</strong>, которую я собирал и дорабатывал несколько лет.</p>
+          </div>
         </div>
+      </section>
 
-      </div>
-    </section>
-
-    <section class="results section" aria-labelledby="results-title">
-      <div class="shell">
-        <h2 id="results-title">Что нужно сделать, чтобы стать прибыльным трейдером и прийти к таким результатам?</h2>
-
-        <div class="certificates" aria-label="Галерея выплат и сертификатов">
-          <figure class="certificate reveal">
-            <img src="assets/images/payout-alpha.webp" alt="Сертификат выплаты Alpha Capital на 5 180,15 долларов" width="1445" height="1089" loading="lazy" decoding="async">
-          </figure>
-          <figure class="certificate certificate-fundednext reveal">
-            <img src="assets/images/payout-fundednext.webp" alt="Сертификат выплаты FundedNext на 5 300 долларов" width="1513" height="1040" loading="lazy" decoding="async">
-          </figure>
-          <figure class="certificate reveal">
-            <img src="assets/images/payout-mff.webp" alt="Сертификат выплаты My Funded Futures на 6 500 долларов" width="1464" height="1075" loading="lazy" decoding="async">
-          </figure>
-          <figure class="certificate certificate-topstep reveal">
-            <img src="assets/images/payout-topstep.webp" alt="Подтверждение выплаты Topstep на 2 420 долларов" width="1254" height="1254" loading="lazy" decoding="async">
-          </figure>
-        </div>
-
-        <div class="results-copy reveal">
-          <p class="results-lead">Эти результаты — не один удачный трейд и не одна случайная выплата.</p>
-          <p>За ними стоит <strong class="gold-underline">система</strong>, которую я собирал и дорабатывал несколько лет.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="roadmap-section section" aria-labelledby="roadmap-title">
-      <div class="shell">
-        <h2 id="roadmap-title">Из чего на самом деле складывается прибыльная торговля?</h2>
-
-        <div class="process-block" aria-label="Состав прибыльной торговли">
-          <ul class="process-list">
-            <li>Понимание рынка</li>
-            <li>Система анализа</li>
-            <li>Рабочие сетапы</li>
-            <li>Риск и математика</li>
-            <li>Backtesting и статистика</li>
-            <li>Торговый журнал</li>
-            <li>Исполнение и дисциплина</li>
-            <li class="process-result" id="roadmap-finish"><strong>Стабильный торговый процесс</strong></li>
+      <section class="section components" id="roadmap" aria-labelledby="roadmap-title">
+        <div class="wrap">
+          <h2 class="section-title reveal" id="roadmap-title">Из чего на самом деле складывается <em>прибыльная торговля?</em></h2>
+          <ul class="components-list">
+            <li class="reveal"><strong>Понимание рынка</strong></li>
+            <li class="reveal"><strong>Система анализа</strong></li>
+            <li class="reveal"><strong>Рабочие сетапы</strong></li>
+            <li class="reveal"><strong>Риск и математика</strong></li>
+            <li class="reveal"><strong>Backtesting и статистика</strong></li>
+            <li class="reveal"><strong>Торговый журнал</strong></li>
+            <li class="reveal"><strong>Исполнение и дисциплина</strong></li>
+            <li class="components-result reveal"><strong>Стабильный торговый процесс</strong></li>
           </ul>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="bridge section" aria-labelledby="bridge-title">
-      <div class="shell">
-        <h2 id="bridge-title">Я потратил почти <span class="gold-text">3 года</span>, чтобы собрать всё это в одну систему</h2>
-        <p>Мне пришлось пройти через огромное количество стратегий, ошибок, потерь, тестов и собственной практики.</p>
-        <p>Сейчас я могу передать этот опыт намного более коротким и понятным путём.</p>
-        <p>Поэтому я сделал <strong>2 формата</strong>, в зависимости от того, на каком этапе вы сейчас находитесь.</p>
-      </div>
-    </section>
-
-    <section class="products section" aria-label="Форматы обучения">
-      <div class="shell product-stack">
-        <article class="product-card course-card reveal" id="base-course">
-          <div class="product-card-inner">
-            <span class="product-index" aria-hidden="true">01</span>
-            <h2>Базовый мини-курс</h2>
-            <p>Для тех, кто только начинает заниматься трейдингом или хочет познакомиться с моим подходом и понять, как я анализирую рынок золота.</p>
-            <p>Внутри я собрал фундамент своей системы в <strong>6 последовательных видеоуроках</strong>: от устройства рынка до Price Action, Auction Market Theory, Volume Profile, VWAP и финального урока, где всё соединяется вместе.</p>
-            <div class="price-block">
-              <span>Стоимость</span>
-              <p class="price">10 000 ₸ / $20</p>
-            </div>
-            <a class="button button-dark" href="https://api.whatsapp.com/send/?phone=77066387416&amp;text=%D0%A5%D0%BE%D1%87%D1%83+%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C+%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9+%D0%BA%D1%83%D1%80%D1%81+%D0%B7%D0%B0+10.000&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer"><span>Купить курс</span><i aria-hidden="true">↗</i></a>
+      <section class="section bridge" id="bridge" aria-labelledby="bridge-title">
+        <div class="wrap bridge-layout">
+          <h2 class="section-title reveal" id="bridge-title">Я потратил почти <em>3 года</em>, чтобы собрать всё это в одну систему</h2>
+          <div class="bridge-copy reveal">
+            <p>Мне пришлось пройти через огромное количество стратегий, ошибок, потерь, тестов и собственной практики.</p>
+            <p>Сейчас я могу передать этот опыт намного более коротким и понятным путём.</p>
+            <p>Поэтому я сделал <strong>2 формата</strong>, в зависимости от того, на каком этапе вы сейчас находитесь.</p>
           </div>
-        </article>
-
-        <article class="product-card personal-card reveal" id="personal-work">
-          <div class="product-card-glow" aria-hidden="true"></div>
-          <div class="product-card-inner">
-            <span class="product-index" aria-hidden="true">02</span>
-            <h2>Личное обучение 1-на-1</h2>
-            <p>Для тех, кто уже торгует, имеет хотя бы базовый опыт и хочет за следующие 3 месяца плотно поработать вместе со мной над своей торговлей.</p>
-            <p>Цель нашей работы — помочь вам собрать понятную самостоятельную торговую систему, которую вы сможете использовать дальше на проп-фирмах или собственном капитале и за 3 месяца получить выплаты или разогнать депозит</p>
-            <div class="price-block">
-              <span>Стоимость</span>
-              <p class="price">от $1500</p>
-            </div>
-            <p class="selection-note">Только по предварительному отбору</p>
-            <a class="button button-gold" href="https://paxnurlana.github.io/mentorship/" target="_blank" rel="noopener noreferrer"><span>Узнать подробнее</span><i aria-hidden="true">↗</i></a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="final section" aria-labelledby="final-title">
-      <div class="shell">
-        <h2 id="final-title">Выберите формат, который подходит вам сейчас</h2>
-        <p>Если вы только начинаете или хотите сначала разобраться в моей системе — начните с базового курса.</p>
-        <p>Если вы уже торгуете и хотите несколько месяцев плотно работать вместе со мной над своей торговлей — оставьте заявку на личное обучение.</p>
-        <div class="final-actions">
-          <a class="button button-primary" href="https://api.whatsapp.com/send/?phone=77066387416&amp;text=%D0%A5%D0%BE%D1%87%D1%83+%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C+%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9+%D0%BA%D1%83%D1%80%D1%81+%D0%B7%D0%B0+10.000&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer"><span>Базовый мини-курс <small>10 000 ₸</small></span><i aria-hidden="true">↗</i></a>
-          <a class="button button-secondary" href="https://paxnurlana.github.io/mentorship/" target="_blank" rel="noopener noreferrer"><span>Личное обучение</span><i aria-hidden="true">↗</i></a>
         </div>
-        <p class="disclaimer">Трейдинг требует времени, практики и дисциплины. Ни один формат обучения не может гарантировать конкретный финансовый результат, но правильная система и понятный процесс могут значительно сократить количество хаотичных действий и ошибок на пути.</p>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <script src="assets/js/main.js" defer></script>
+      <section class="section formats" id="formats" aria-label="Форматы обучения">
+        <div class="wrap">
+          <div class="format-grid">
+            <article class="format-personal reveal" id="personal-work">
+              <div class="format-eyebrow">Личное обучение</div>
+              <h2>Личное обучение 1-на-1</h2>
+              <p>Для тех, кто уже торгует, имеет хотя бы базовый опыт и хочет за следующие 3 месяца плотно поработать вместе со мной над своей торговлей.</p>
+              <p>Цель нашей работы — помочь вам собрать понятную самостоятельную торговую систему, которую вы сможете использовать дальше на проп-фирмах или собственном капитале и за 3 месяца получить выплаты или разогнать депозит</p>
+              <div class="format-price">
+                <small>Стоимость</small>
+                <strong>600 000 ₸</strong>
+                <span>1 500 $ — для граждан других стран</span>
+              </div>
+              <div class="installment">
+                <span class="kaspi-mark"><img src="assets/kaspi-logo.png" alt="Kaspi"></span>
+                <div class="installment-copy"><span>Kaspi Рассрочка<br>до 12 месяцев</span><strong>50 000 ₸<small>в месяц</small></strong></div>
+              </div>
+              <p class="selection-note">Только по предварительному отбору</p>
+              <div class="liquid-cta"><a class="button" href="https://paxnurlana.github.io/mentorship/" target="_blank" rel="noopener noreferrer">Узнать подробнее <span class="button-icon" aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="format-course glass reveal" id="base-course">
+              <div class="format-eyebrow">Базовый формат</div>
+              <h2>Базовый мини-курс</h2>
+              <p>Для тех, кто только начинает заниматься трейдингом или хочет познакомиться с моим подходом и понять, как я анализирую рынок золота.</p>
+              <p>Внутри я собрал фундамент своей системы в <strong>6 последовательных видеоуроках</strong>: от устройства рынка до Price Action, Auction Market Theory, Volume Profile, VWAP и финального урока, где всё соединяется вместе.</p>
+              <div class="format-price"><small>Стоимость</small><strong>10 000 ₸ / $20</strong></div>
+              <a class="button quiet-button" href="https://api.whatsapp.com/send/?phone=77066387416&amp;text=%D0%A5%D0%BE%D1%87%D1%83+%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C+%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9+%D0%BA%D1%83%D1%80%D1%81+%D0%B7%D0%B0+10.000&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer">Купить курс <span class="button-icon" aria-hidden="true">↗</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final" id="final" aria-labelledby="final-title">
+        <div class="wrap">
+          <h2 class="section-title reveal" id="final-title">Выберите формат, который подходит вам сейчас</h2>
+          <div class="final-copy reveal">
+            <p>Если вы только начинаете или хотите сначала разобраться в моей системе — начните с базового курса.</p>
+            <p>Если вы уже торгуете и хотите несколько месяцев плотно работать вместе со мной над своей торговлей — оставьте заявку на личное обучение.</p>
+          </div>
+          <div class="funnel-actions reveal">
+            <div class="liquid-cta"><a class="button" href="https://paxnurlana.github.io/mentorship/" target="_blank" rel="noopener noreferrer">Личное обучение <span class="button-icon" aria-hidden="true">↗</span></a></div>
+            <a class="button quiet-button" href="https://api.whatsapp.com/send/?phone=77066387416&amp;text=%D0%A5%D0%BE%D1%87%D1%83+%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C+%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9+%D0%BA%D1%83%D1%80%D1%81+%D0%B7%D0%B0+10.000&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer"><span>Базовый мини-курс <small>10 000 ₸</small></span><span class="button-icon" aria-hidden="true">↗</span></a>
+          </div>
+          <p class="disclaimer">Трейдинг требует времени, практики и дисциплины. Ни один формат обучения не может гарантировать конкретный финансовый результат, но правильная система и понятный процесс могут значительно сократить количество хаотичных действий и ошибок на пути.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"><div class="wrap footer-in"><span>Gold Trading Academy</span><a href="#top">Наверх ↑</a></div></footer>
+  </div>
+  <script>
+    const reveals = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver(entries => { for (const entry of entries) if (entry.isIntersecting) { entry.target.classList.add('show'); observer.unobserve(entry.target); } }, {rootMargin:'0px 0px -35px 0px',threshold:.08});
+      reveals.forEach(el => observer.observe(el));
+    } else reveals.forEach(el => el.classList.add('show'));
+  </script>
 </body>
 </html>
